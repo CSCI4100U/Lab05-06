@@ -88,7 +88,7 @@ Of course, you can always ask the TA for help!  However, learning how to find th
 ## How to Submit
 Create your flutter project inside this folder, commit, and then push your code to this repository to submit your lab assignment.
 
-### Extending
+## Extending
 To extend this lab, you will need to add the following:
 
 - Add the ability to delete grades using the swiping gesture, then remove the delete icon from the appBar.
