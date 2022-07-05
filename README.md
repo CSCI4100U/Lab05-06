@@ -95,8 +95,8 @@ To extend this lab, you will need to add the following:
 
 - Add the ability to edit grades using the long press gesture, with a popup menu, then remove the edit icon from the appBar.
 
-- Add an icon to the appBar that enables a user to import a .csv file to populate the list of grades. The csv file should have 2 columns (sid, grade) and append all new grades to the existing list of grades.
-
 - Add a single icon to the appBar that allows users to sort the grades in one of four ways (increasing/decreasing sid/grade).
 
 - Add an icon to the appBar that shows a `DataTable`, which generates a vertical bar chart of the grade data. The Y axis should be frequency, and the X axis should be the grade in ascending order.
+
+- Finally, add an icon to the appBar that enables a user to import a .csv file to populate the list of grades. The csv file should have 2 columns (sid, grade) and append all new grades to the existing list of grades.
