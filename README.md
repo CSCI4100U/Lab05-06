@@ -72,9 +72,6 @@ Now, we can implement the stubbed functions:
 - `_deleteGrade()`
     - For the selected `Grade`, use its `id` to call `deleteGradeById` in the `GradesModel`
 
-### Need Extra Challenge?
-Add the ability to delete grades using the swiping gesture.  Add the ability to edit grades using the long press gesture, with a popup menu if able.
-
 ## Getting Help
 If you run into difficulty, you may wish to check out some of the following resources:
 
@@ -90,3 +87,16 @@ Of course, you can always ask the TA for help!  However, learning how to find th
 
 ## How to Submit
 Create your flutter project inside this folder, commit, and then push your code to this repository to submit your lab assignment.
+
+### Extending
+To extend this lab, you will need to add the following:
+
+- Add the ability to delete grades using the swiping gesture, then remove the delete icon from the appBar.
+
+- Add the ability to edit grades using the long press gesture, with a popup menu, then remove the edit icon from the appBar.
+
+- Add an icon to the appBar that enables a user to import a .csv file to populate the list of grades. The csv file should have 2 columns (sid, grade) and append all new grades to the existing list of grades.
+
+- Add a single icon to the appBar that allows users to sort the grades in one of four ways (increasing/decreasing sid/grade).
+
+- Add an icon to the appBar that shows a `DataTable`, which generates a vertical bar chart of the grade data. The Y axis should be frequency, and the X axis should be the grade in ascending order.
