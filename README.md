@@ -101,4 +101,4 @@ To extend this lab, you will need to add the following:
 
 - Add an icon to the appBar that enables a user to import a .csv file to populate the list of grades. The csv file should have 2 columns (sid, grade) and append all new grades to the existing list of grades.
 
-- Add one more feature of your choice other than those listed here.
+- Add one more feature of your choice other than those listed here. Mention this feature explicitly in your README.md.
