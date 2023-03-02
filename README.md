@@ -101,4 +101,6 @@ To extend this lab, you will need to add the following:
 
 - Add an icon to the appBar that enables a user to import a .csv file to populate the list of grades. The csv file should have 2 columns (sid, grade) and append all new grades to the existing list of grades.
 
-- Add one more feature of your choice other than those listed here. Mention this feature explicitly in your README.md.
+- Add two more features of your choice other than those listed here. Mention these features explicitly in your README.md.
+
+  - As a baseline, each of these features should be at least as complex as being able to store all the grades in an SQLite database, export the contents of that database to a file, and import files of that type to generate a list of grades.
